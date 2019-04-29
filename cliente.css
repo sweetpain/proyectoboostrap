@@ -1,0 +1,149 @@
+
+body{
+    background-image: url(img/man-1282232.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+      /* The file size of this background image is 93% smaller
+       * to improve page load speed on mobile internet connections */
+      background-image: url(img/biceps-2945912.jpg);
+    }
+    
+      }
+
+      @media only screen and (min-width: 508px) {
+        .mensaje {
+            width: 80%;
+          height: 10%;
+          margin-top: 20% !important;
+        margin: auto;
+        background-color: rgba(6, 10, 10, 0.63);
+        color: white;
+        font-size: 30px;
+        padding: 50px;
+        }
+        
+          }
+
+      .mensaje{
+          width: 100%;
+          height: 20%;
+          margin-top: 40% !important;
+        margin: auto;
+        background-color: rgba(6, 10, 10, 0.63);
+        color: white;
+        font-size: 50px;
+        padding: 60px;
+      }
+    
+      .container2{
+        background-color: rgba(6, 10, 10, 0.63);
+        color: white;
+        width: 100%;
+        margin-top: 40% !important;
+        padding-bottom: 25px;
+        padding-left: 70px;
+      }
+      
+     
+      .cardio{
+        width: 300%;
+        height: 300%;
+      }
+   
+ .c1{
+   width: 220px;
+   height: 220px;
+   background: red;
+   margin-top: 5%;
+   background-image: url(img/people-2572265.jpg);
+    background-size: cover;
+    border: 2px solid deeppink;
+    
+
+  
+ }
+ .c2{
+  width: 220px;
+  height: 220px;
+  background: blue;
+  margin-top: 5%;
+  background-image: url(img/mujer.jpg);
+  background-size: cover;
+  border: 2px solid deeppink;
+  
+}
+.c3{
+  width: 220px;
+  height: 220px;
+  background:gray;
+  margin-top: 5%;
+  background-image: url(img/Dwayne\ Johnson.jpg);
+  background-size: cover;
+  border: 2px solid deeppink;
+
+}
+      .container1{
+        background-color: rgba(6, 10, 10, 0.63);
+        color: white;
+        width: 100%;
+        margin-top: 40% !important;
+      }
+     
+      img{
+          width: 5%;
+          height: 5%;
+      }
+
+     
+
+      .icon-facebook-squared,.icon-twitter,.icon-whatsapp,.icon-instagram{
+         font-size: 180px;
+          margin-top: 2%;
+         
+          width: 180px;
+          height: 180px;
+
+      }
+
+     .tw{
+         color: deepskyblue;
+         padding:0;
+         border: 3px solid darkcyan;
+         
+     }
+
+     .face{
+        color: royalblue;
+        padding:0;
+        border: 3px solid darkcyan;
+        
+     }
+
+     .what{
+        color: springgreen;
+        padding:0;
+        border: 3px solid darkcyan;
+     }
+
+     .insta{
+        color: deeppink;
+        padding:0;
+        border: 3px solid darkcyan;
+        border: 3px solid darkcyan;
+        
+     }
+
+     .re{
+         color: darkcyan;
+         margin-left: 40px;
+     }

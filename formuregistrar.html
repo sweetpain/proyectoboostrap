@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Registrar</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Registrar.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+        <div class="container fonts ">
+            <div class="row justify-content-center">
+                <div class="col diseño" >
+                    <div class="row mt-5 justify-content-center ">
+                            <div class="col-12 col-sm-5 col-md-5 col-lg-4" >
+                                <form class="formulario mt-3" action="#" name="formuregis" id="idFormuregis" onsubmit="metFormulario.valformcompleto()"> 
+                                    <div class="form-group " >
+                                        <label for="idNombre">Nombres</label>
+                                        <input name="nombre" id="idNombre" class="form-control" type="text" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="idApellido">Apellidos</label>
+                                        <input name="apellido" id="idApellido" class="form-control" type="text" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="idDocumento">Documento</label>
+                                        <input name="documento" id="idDocumento" class="form-control" type="text" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="idUsuario">Usuario</label>
+                                        <input name="usuario" id="idUsuario" class="form-control" type="text" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idContraseña">Contraseña</label>
+                                        <input name="contraseña" id="idContraseña" class="form-control" type="password" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idContraseñaR">Repitir Contraseña</label>
+                                        <input name="contraseñaR" id="idContraseñaR" class="form-control" type="password" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idCargo">Cargo</label>
+                                            <select neme="cargo" id="idCargo" class="form-control" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                                <option value="gerente">Gerente</option>
+                                                <option value="entrenador">Entrenador</option>
+                                                <option value="cliente">Cliente</option>
+                                            </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idEmail">Correo electronico </label>
+                                        <input type="text" id="idEmail"  class="form-control" placeholder="Email" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group">
+		                                <label for="idDate">Fecha Nacimiento </label>
+                                        <input type="text" class="form-control"  id="idDate"  placeholder="DD/MM/AAAA"  style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idPhone">Telefono </label>
+                                        <input type="phone" class="form-control"  id="idPhone" value="" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="idDepartamento">Departamento</label>
+                                            <select name="departamento" id="idDepartamento" class="form-control" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                                
+                                                <option value="boyaca">Boyaca</option>
+                                                
+                                            </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="ciudad">Ciudad</label>
+                                            <select name="ciudad" id="idCiudad" class="form-control" style="overflow:auto; background-color:rgba(13, 164, 190, 0.651)">
+                                                
+                                                <option value="tunja">Tunja</option>
+                                                
+                                        </select>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                        <input type="radio" name="sexo" id="hombre" class="form-check-label mr-2">Hombre
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                        <input type="radio" name="sexo" id="mujer" class="form-check-label mr-2">Mujer
+                                        </label>
+                                    </div>
+                                    <div class="row mt-3 justify-content-center">
+                                        <div class="col-8 col-sm-10  col-md-10 col-lg-8 mt-2 ">
+                                            <a href="proyecto.html" > <input class="btn btn-success btn-block mt-2"  type="submit" value="REGISTARSE"></a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+
+  </body>
+</html>
